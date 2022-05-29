@@ -229,7 +229,7 @@ header {
   left: 0;
   transform: scaleX(0);
   transform-origin: left;
-  max-width: 500px;
+  max-width: 0px;
   max-height: 100vh;
   overflow: auto;
   background-color: $redColor;
@@ -345,6 +345,7 @@ header {
   }
 }
 .getInfo.active {
+  max-width: 500px !important;
   left: 0;
   transform: scaleX(1);
 }
